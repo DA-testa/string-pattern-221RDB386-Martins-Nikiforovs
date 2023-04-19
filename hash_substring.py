@@ -19,7 +19,8 @@ def read_input():
      # return both lines in one return
 
     # this is the sample return, notice the rstrip function
-            return (input().rstrip(), input().rstrip())
+           # return (input().rstrip(), input().rstrip())
+            return (fails.readline().rstrip(), fails.readline().rstrip())
 
 
 def print_occurrences(output):
