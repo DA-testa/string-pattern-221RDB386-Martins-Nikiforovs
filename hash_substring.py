@@ -15,7 +15,7 @@ def read_input():
     # second line is text in which to look for pattern
 
     elif 'F' in usrInpt:
-        with open("tests/06", "r" as file:
+        with open('./tests/' + '06', 'r') as file:
      # return both lines in one return
 
     # this is the sample return, notice the rstrip function
